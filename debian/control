@@ -17,9 +17,8 @@ Depends: vyatta-cfg (>= 0.104.32),
 	 libmodule-load-conditional-perl,
 	 libvyatta-dataplane-perl,
 	 libvyatta-interface-perl (>= 1.49),
-	 vyatta-dataplane-cfg-npf-cfg-2,
-	 vyatta-dataplane-cfg-portmonitor-1,
 	 vplane-config-npf (>= 1.8.7)
+Recommends: vyatta-dataplane-cfg-npf-cfg-2, vyatta-dataplane-cfg-portmonitor-1
 Description: Portmonitor scripts
  Vyatta configuration/operational commands for
  portmonitor service.
